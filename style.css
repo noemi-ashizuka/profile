@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,600|Raleway:400,700&display=swap');
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 300;
+  background-color: #eff1f2;
+  color: #414a50;
+}
+
+h1, h2 {
+  font-family: 'Raleway', sans-serif;
+  color: #85a6b1;
+}
+
+h1 {
+  font-size: 36px;
+  letter-spacing: 1px;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+p {
+  letter-spacing: 1px;
+}
+
+.btn-green {
+  background-color: #b1d3c4;
+  color: white;
+  font-size: 16px;
+  padding: 8px 16px;
+  margin: 16px;
+  border-radius: 8px;
+  box-shadow: 1px 1px 2px rgba(65, 74, 80, 0.5);
+}
+
+.btn-green:hover {
+  background-color: #caedde;
+}
+
+.card-white {
+  background-color: white;
+  margin: 32px auto;
+  text-align: center;
+  padding: 16px;
+  border-radius: 4px;
+  box-shadow: 1px 1px 2px rgba(65, 74, 80, 0.5);
+}
+
+.list-inline {
+  padding: 0;
+}
+
+.list-inline > li {
+  display: inline-block;
+  margin: 24px;
+}
+
+.list-inline a {
+  color: #b1d3c4;
+  font-size: 32px;
+}
+
+.list-inline a:hover {
+  color: #caedde;
+}
+
+.img-circle {
+  border-radius: 50%;
+  width: 250px;
+}
